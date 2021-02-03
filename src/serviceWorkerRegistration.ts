@@ -5,7 +5,7 @@ export function register() {
         .register("worker.js")
         .then(
           function (registration) {
-            console.log("Worker registration successjull", registration.scope);
+            console.log("Worker registration successfull", registration.scope);
           },
           function (err) {
             console.log("Worker registration failed", err);
